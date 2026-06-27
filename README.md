@@ -1,5 +1,4 @@
 # awesome-corpus-engineering
-Diseñar, estructurar, expandir, mantener y optimizar un corpus para que los sistemas de IA —especialmente los basados en recuperación y generación— puedan entender, extraer, relacionar y generar información de forma precisa.
 
 
 ## Definición de corpus engineering
@@ -8,6 +7,7 @@ Su relevancia se debe a que los modelos actuales ya no operan sobre documentos a
 
 En síntesis:
 Es la __disciplina que garantiza que la información esté preparada para ser encontrada, comprendida y utilizada por sistemas de IA__.
+
 
 
 ## Definición del rol
@@ -22,6 +22,7 @@ En términos prácticos:
 Es la persona que __convierte datos dispersos en un ecosistema de conocimiento usable por IA__.
 
 
+
 ## Cinco buenas prácticas
 
 | Práctica | Descripción |
@@ -32,11 +33,14 @@ Es la persona que __convierte datos dispersos en un ecosistema de conocimiento u
 | Optimización para recuperación | Alinear el corpus con patrones de consulta, embeddings y fan-out de queries. |
 | Expansión con información de alto valor | Añadir contenido que incremente information gain, no volumen irrelevante. |
 
+
+
 ## Estructura del corpus
 **Corpus jerárquico basado en entidades** — Organiza el corpus alrededor de entidades principales (productos, procesos, personas, conceptos), con documentos y fragmentos enlazados a cada entidad.
 Esta estructura facilita la recuperación basada en embeddings y la navegación semántica. 
 
 ¿Existen otras estructuras? Sí, las trataremos más adelante
+
 
 
 ## Diez checklists esenciales
