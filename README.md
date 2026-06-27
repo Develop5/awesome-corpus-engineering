@@ -24,7 +24,7 @@ Es la persona que __convierte datos dispersos en un ecosistema de conocimiento u
 
 ---
 
-## Cinco buenas prácticas
+## Cinco buenas prácticas esenciales
 
 | Práctica | Descripción |
 |----------|-------------|
@@ -33,6 +33,29 @@ Es la persona que __convierte datos dispersos en un ecosistema de conocimiento u
 | Control de ciclo de vida | Monitorizar drift, obsolescencia y cambios en entidades. |
 | Optimización para recuperación | Alinear el corpus con patrones de consulta, embeddings y fan-out de queries. |
 | Expansión con información de alto valor | Añadir contenido que incremente information gain, no volumen irrelevante. |
+
+Más adelante explicaremos por qué son esenciales y en qué orden se deben aplicar.
+
+---
+
+## ¿Hay otras buenas prácticas?
+
+Por supuesto, aquí mencionamos algunas adicionales:
+
+
+| Práctica adicional | Descripción |
+|----------|----------|
+|  Diseño semántico consistente         |  Definir taxonomías, entidades y relaciones claras para que el corpus sea navegable y machine-readable.          | 
+|  Chunking estratégico          |  Fragmentar contenido en unidades óptimas para embeddings y recuperación.           | 
+|  Control de ciclo de vida          |  Monitorizar drift, obsolescencia y cambios en entidades.           | 
+|  Optimización para recuperación          |  Alinear el corpus con patrones de consulta, embeddings y fan-out de queries.           | 
+|  Expansión con información de alto valor          |  Añadir contenido que incremente information gain, no volumen irrelevante.           | 
+
+
+
+¿Puede una práctica adicional resultar en práctica esenciale? 
+Muy buen punto. Claro que sí. Fundamentalmente en dependencia del sector y del producto o equipo. Y hay que hacerlo sin crear ambigüedades, duplicaciones, conflictos, ciclos, etc. Aquí los hemos dividido de la forma más común en que los puedes encontrar, pero recuerda que un corpus gira siempre alrededor de **conocimiento**. Y no es sólo tener el conocimiento sino buscar cómo ese conocimiento se puede utilizar de la forma más eficiente, eficaz y efectiva.
+
 
 ---
 
