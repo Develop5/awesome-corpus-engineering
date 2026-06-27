@@ -64,7 +64,7 @@ Muy buen punto. Claro que sí. Fundamentalmente en dependencia del sector y del 
 **Corpus jerárquico basado en entidades** — Organiza el corpus alrededor de entidades principales (productos, procesos, personas, conceptos), con documentos y fragmentos enlazados a cada entidad.
 Esta estructura facilita la recuperación basada en embeddings y la navegación semántica. 
 
-¿Existen otras estructuras? Sí, las trataremos más adelante
+¿Existen otras estructuras? Sí, las veremos más adelante
 
 ---
 
