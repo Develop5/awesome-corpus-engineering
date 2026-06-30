@@ -1,4 +1,6 @@
 # awesome-corpus-engineering
+
+## Spanish‑first list
 Esta lista está centrada en recursos en español sobre documentación para IA, corpus, RAG y taxonomías. Es la primera lista curada en español sobre corpus engineering.
 
 
