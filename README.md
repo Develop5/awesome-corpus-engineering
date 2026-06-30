@@ -1,33 +1,30 @@
-# awesome-corpus-engineering
+🟩 Spanish‑first list
 
-## Spanish‑first list
-Esta lista está centrada en recursos en español sobre documentación para IA, corpus, RAG y taxonomías. Es la primera lista curada en español sobre corpus engineering.
+Esta lista está centrada en recursos en español sobre documentación para IA, corpus, RAG, fragmentación, taxonomías y estructuras de conocimiento.
+Su objetivo es posicionar la disciplina de Corpus Engineering como una habilidad clave en la era de la IA generativa.
 
+________________________________________
+🟥 ¿Qué es la Ingeniería de Corpus?
 
-## ¿Qué es corpus engineering?
-Diseñar, estructurar, expandir, mantener y optimizar un corpus para que los sistemas de IA —especialmente los basados en recuperación y generación— puedan entender, extraer, relacionar y generar información de forma precisa.
-Su relevancia se debe a que los modelos actuales ya no operan sobre documentos aislados, sino sobre corpora completos, sensibles a embeddings, entidades, chunking y ciclo de vida. 
+La Ingeniería de Corpus es la disciplina que se encarga de diseñar, estructurar, fragmentar, normalizar y etiquetar la información que alimenta modelos de IA generativa, especialmente sistemas basados en RAG (Retrieval Augmented Generation).
 
-En síntesis:
-Es la __disciplina que garantiza que la información esté preparada para ser encontrada, comprendida y utilizada por sistemas de IA__.
+Es el puente entre documentación y IA:
+la práctica que garantiza que la información esté preparada para ser encontrada, comprendida y utilizada por sistemas de IA.
 
----
-
-## ¿Y cuál es la función de un Corpus Engineer?
-
-Un/a corpus engineer es responsable de:
-    Diseñar la arquitectura del corpus (accesibilidad, estructura semántica, metadatos).
-    Asegurar la calidad, coherencia y actualización del corpus a lo largo del tiempo (lifecycle & drift).
-    Optimizar el corpus para recuperación, embeddings y sistemas RAG.
-    Expandir el corpus con nuevas fuentes y medir su información incremental.
-    Mantener pipelines de ingestión, limpieza, chunking y alineación multimodal.
+________________________________________
+🟦 ¿Qué hace un/a Corpus Engineer?
+* Un/a corpus engineer es responsable de:
+* Diseñar la arquitectura del corpus (accesibilidad, estructura semántica, metadatos).
+* Asegurar la calidad, coherencia y actualización del corpus (lifecycle & drift).
+* Optimizar el corpus para recuperación, embeddings y sistemas RAG.
+* Expandir el corpus con nuevas fuentes y medir su información incremental.
+* Mantener pipelines de ingestión, limpieza, chunking y alineación multimodal.
 
 En términos prácticos:
-Es la persona que __convierte datos dispersos en un ecosistema de conocimiento usable por IA__.
+convierte datos dispersos en un ecosistema de conocimiento usable por IA.
 
----
-
-## Cinco buenas prácticas esenciales
+________________________________________
+🟪 Cinco buenas prácticas esenciales
 
 | Práctica | Descripción |
 |----------|-------------|
@@ -37,14 +34,9 @@ Es la persona que __convierte datos dispersos en un ecosistema de conocimiento u
 | Optimización para recuperación | Alinear el corpus con patrones de consulta, embeddings y fan-out de queries. |
 | Expansión con información de alto valor | Añadir contenido que incremente information gain, no volumen irrelevante. |
 
-Más adelante explicaremos por qué son esenciales y en qué orden se deben aplicar.
 
----
-
-## ¿Hay otras buenas prácticas?
-
-Por supuesto, aquí mencionamos algunas adicionales:
-
+________________________________________
+🟧 Otras buenas prácticas
 
 | Práctica adicional | Descripción |
 |----------|----------|
@@ -55,38 +47,72 @@ Por supuesto, aquí mencionamos algunas adicionales:
 |  Expansión con información de alto valor          |  Añadir contenido que incremente information gain, no volumen irrelevante.           | 
 
 
-
-¿Puede una práctica adicional resultar en práctica esenciale? 
-Muy buen punto. Claro que sí. Fundamentalmente en dependencia del sector y del producto o equipo. Y hay que hacerlo sin crear ambigüedades, duplicaciones, conflictos, ciclos, etc. Aquí los hemos dividido de la forma más común en que los puedes encontrar, pero recuerda que un corpus gira siempre alrededor de **conocimiento**. Y no es sólo tener el conocimiento sino buscar cómo ese conocimiento se puede utilizar de la forma más eficiente, eficaz y efectiva.
-
-
----
-
-## Estructura del corpus
-
-**Corpus jerárquico basado en entidades** — Organiza el corpus alrededor de entidades principales (productos, procesos, personas, conceptos), con documentos y fragmentos enlazados a cada entidad.
-Esta estructura facilita la recuperación basada en embeddings y la navegación semántica. 
-
-¿Existen otras estructuras? Sí, las veremos más adelante
-
----
-
-## Diez checklists esenciales
-
-1. Checklist de accesibilidad del corpus
-2. Checklist de estructura semántica
-3. Checklist de metadatos obligatorios
-4. Checklist de chunking y segmentación
-5. Checklist de calidad y limpieza de datos
-6. Checklist de expansión del corpus
-7. Checklist de mantenimiento y drift
-8. Checklist de optimización para RAG
-9. Checklist de alineación multimodal
-10. Checklist de medición e información incremental
-
-
+Las prácticas esenciales y adicionales pueden intercambiarse según el sector, el producto o el equipo.
+Un corpus gira siempre alrededor del conocimiento y de cómo ese conocimiento puede ser utilizado de forma eficiente, eficaz y efectiva.
 
 ________________________________________
-🟪 Licencia  
+🟦 Estructuras de corpus
+
+**Corpus jerárquico basado en entidades**
+Organiza el corpus alrededor de entidades principales (productos, procesos, personas, conceptos), con documentos y fragmentos enlazados a cada entidad.
+Facilita la recuperación basada en embeddings y la navegación semántica.
+
+Otras estructuras se incluirán en futuras versiones.
+
+________________________________________
+🟩 Diez checklists esenciales
+
+1. Accesibilidad del corpus
+2. Estructura semántica
+3. Metadatos obligatorios
+4. Chunking y segmentación
+5. Calidad y limpieza de datos
+6. Expansión del corpus
+7. Mantenimiento y drift
+8. Optimización para RAG
+9. Alineación multimodal
+10. Medición e información incremental
+
+________________________________________
+🟦 Contenido del repositorio
+Conceptos fundamentales  
+Explicaciones claras sobre corpus, RAG y documentación para IA.
+→ Conceptos
+
+Plantillas profesionales  
+Fragmentos, metadatos, estructuras y checklists listos para usar.
+→ Plantillas
+
+Ejemplos reales  
+Fragmentos RAG‑ready basados en SaaS, consultoría y e‑commerce.
+→ Ejemplos
+
+Tutoriales paso a paso  
+Cómo crear un corpus desde cero usando documentación pública.
+→ Tutoriales
+
+Herramientas y convenciones  
+Naming, calidad, estructuras de carpetas y guías de ingestión.
+→ Herramientas
+
+________________________________________
+🟩 ¿Quién soy?
+
+Ingeniero de Conocimiento para IA Generativa, especializado en:
+* Corpus para RAG
+* Documentación técnica
+* Taxonomías
+* Estructuras de conocimiento
+* Preparación documental para IA
+
+________________________________________
+🟧 ¿Quieres colaborar?
+
+Puedes abrir issues, enviar PRs o proponer nuevos ejemplos.
+→ Colaborar
+
+________________________________________
+🟪 Licencia
+
 Este repositorio está publicado bajo la licencia MIT.
 Puedes usar, copiar, modificar y redistribuir el contenido siempre que mantengas el aviso de copyright original.
