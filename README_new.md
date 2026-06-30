@@ -7,6 +7,8 @@ Este repositorio contiene:
 * Estructuras de corpus listas para usar
 
 Mi objetivo es ayudar a empresas y profesionales a crear corpus limpios, estructurados y listos para IA, y posicionar la disciplina de Corpus Engineering como una habilidad clave en la era de la IA generativa.
+
+Esta lista está centrada en recursos en español sobre documentación para IA, corpus, RAG y taxonomías. Es la primera lista curada en español sobre corpus engineering.
 ________________________________________
 🟥 ¿Qué es la Ingeniería de Corpus?
 La Ingeniería de Corpus es la disciplina que se encarga de:
