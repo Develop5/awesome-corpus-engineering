@@ -43,6 +43,12 @@ Soy Ingeniero de Conocimiento para IA Generativa, especializado en:
 * Taxonomías
 * Estructuras de conocimiento
 * Preparación documental para IA
+
+________________________________________
+🟪 Licencia  
+Este repositorio está publicado bajo la licencia MIT.
+Puedes usar, copiar, modificar y redistribuir el contenido siempre que mantengas el aviso de copyright original.
+
 ________________________________________
 🟧 ¿Quieres colaborar?
 Puedes abrir issues, enviar PRs o proponer nuevos ejemplos.

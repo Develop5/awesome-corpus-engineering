@@ -83,3 +83,7 @@ Esta estructura facilita la recuperación basada en embeddings y la navegación 
 
 
 
+________________________________________
+🟪 Licencia  
+Este repositorio está publicado bajo la licencia MIT.
+Puedes usar, copiar, modificar y redistribuir el contenido siempre que mantengas el aviso de copyright original.
